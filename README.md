@@ -41,6 +41,78 @@ The system operates on a straightforward, three-stage data sanitization workflow
 
 ---
 
+## 🤖 SECURE AI CHATBOT WITH PII PROTECTION
+
+Your sensitive information will be automatically protected!
+Type 'exit' or 'quit' to end the conversation.
+---
+You: hey man, can u pls fix this up for me? gotta send it to the client.  ok so tell Jen P. at Megacorp that the files r sent. she can reach me at alexj_designs@proton.me or just call my cell 555-867-5309 if theres a problem. my ip when i sent it was 192.168.1.10 if their IT asks.  also she needs my w9 info, the ssn is 987.65.4321 but tell her not to email that around lol. just use it for the paperwork. her office is the one on 123 Main St, Anytown.  my full name is Alex Johnson btw. thx!! Make this into formal way.
+
+🔍 Detecting sensitive information... ✓ Found 8 PII entities
+🔒 Masking sensitive information... ✓ Data protected
+
+📝 Masked version sent to AI:
+   "hey man, can u pls fix this up for me? gotta send it to the client.  ok so tell [PERSON_2] at Megacorp that the files r sent. she can reach me at [EMAIL_ADDRESS_1] or just call my cell [PHONE_NUMBER_1] if theres a problem. my ip when i sent it was [IP_ADDRESS_1] if their IT asks.  also she needs my [LOCATION_3] info, the ssn is 987.65.4321 but tell her not to email that around lol. just use it for the paperwork. her office is the one on 123 [LOCATION_2], [LOCATION_1].  my full name is [PERSON_1] btw. thx!! Make this into formal way."
+
+🤔 AI is thinking... ✓ Response generated
+
+📄 AI Response (Masked):
+   "Of course! Here is a more formal and professional version of your message, ready to send to your client.
+
+**A quick but important note:** I have not included the Social Security Number in the email below. It is highly insecure to send sensitive information like an SSN via email. Instead, the message prompts them to contact you for a secure way to provide it, which protects both you and the client.
+
+***
+
+**Subject: Confirmation of File Delivery**
+
+Dear [PERSON_2],
+
+I am writing to confirm that the requested files have been sent to you.
+
+Please let me know if you encounter any issues. You can reach me by replying to this email at [EMAIL_ADDRESS_1] or by calling my cell phone at [PHONE_NUMBER_1].
+
+For your IT department's reference, the files were sent from the IP address: [IP_ADDRESS_1].
+
+I understand you also require my [LOCATION_3] information and Social Security Number for the paperwork. My location is: [LOCATION_3]. For security purposes, I would prefer to provide my SSN through a more secure channel. Please let me know the best way to do so, or feel free to call me at your convenience to receive it.
+
+Thank you.
+
+Best regards,
+
+[PERSON_1]
+[EMAIL_ADDRESS_1]
+[PHONE_NUMBER_1]"
+
+🔓 Restoring your information... ✓ Complete
+
+🤖 AI (Final Response):
+   Of course! Here is a more formal and professional version of your message, ready to send to your client.
+
+**A quick but important note:** I have not included the Social Security Number in the email below. It is highly insecure to send sensitive information like an SSN via email. Instead, the message prompts them to contact you for a secure way to provide it, which protects both you and the client.
+
+***
+
+**Subject: Confirmation of File Delivery**
+
+Dear Jen P.,
+
+I am writing to confirm that the requested files have been sent to you.
+
+Please let me know if you encounter any issues. You can reach me by replying to this email at alexj_designs@proton.me or by calling my cell phone at 555-867-5309.
+
+For your IT department's reference, the files were sent from the IP address: 192.168.1.10.
+
+I understand you also require my w9 information and Social Security Number for the paperwork. My location is: w9. For security purposes, I would prefer to provide my SSN through a more secure channel. Please let me know the best way to do so, or feel free to call me at your convenience to receive it.
+
+Thank you.
+
+Best regards,
+
+Alex Johnson
+alexj_designs@proton.me
+555-867-5309
+
+
 ## Getting Started
 
 ### Prerequisites
