@@ -125,7 +125,7 @@ Clone the repository and install the required dependencies.
 
 ```bash
 # Clone the repository
-git clone [https://github.com/your-username/PII-Guard.git](https://github.com/your-username/PII-Guard.git)
+git clone [https://github.com/darshan-pr/PII-Guard.git](https://github.com/darshan-pr/PII-Guard.git)
 cd PII-Guard
 
 # Create and activate a virtual environment
